@@ -16,3 +16,7 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
+/* this is the write function in which the first 1 means the file descriptor variable which represents a file or 
+Input/Output stream which in this case is output to the terminal. 
+It requires the address of the variable c to be passed in, 
+and the last 1 is the size of the bytes to be written */
